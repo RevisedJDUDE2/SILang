@@ -10,7 +10,7 @@ VariableInfo* SILangMemory::GetAllVariableInfo(void) {
   return this->pVariableInfo;
 }
 
-void SILangMemory::AssingVariables(VariableData VarData, const char* name) {
+void SILangMemory::AssignVariables(VariableData VarData, const char* name) {
   bool emptySlot = false;
   for(int i = 0; i <= sizeof(pVariableInfo); i++) {
     if(pVariableInfo[i].name == nullptr) {

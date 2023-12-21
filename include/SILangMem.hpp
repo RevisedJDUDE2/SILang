@@ -19,7 +19,7 @@ class SILangMemory {
     int pLastIndex = -1;
   public:
     SILangMemory();
-    void AssingVariables(VariableData VarData, const char* name);
+    void AssignVariables(VariableData VarData, const char* name);
     /** @brief Gets All Variables information
      *  @returns VariablesInfo*
     */
