@@ -1,5 +1,7 @@
 #include <iostream>
 
+/** @brief What is gonna be the value
+*/
 typedef struct {
   int i;
   float f;
@@ -19,6 +21,10 @@ class SILangMemory {
     int pLastIndex = -1;
   public:
     SILangMemory();
+    /** @brief Assing a variable
+     *  @param VarData which is what value does the variable have
+     *  @param name what is the name of the variable
+    */
     void AssignVariables(VariableData VarData, const char* name);
     /** @brief Gets All Variables information
      *  @returns VariablesInfo*
