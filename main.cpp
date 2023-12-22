@@ -3,7 +3,7 @@
 #include "SILangMem.hpp"
 #include "SILangTerm.hpp"
 
-int main() {
+int WINAPI WinMain(HINSTANCE hThis, HINSTANCE hPrev, LPSTR args, int NCMD) {
   SILangTerm Interpreter();
   SILangMemory Stack;
   Stack.AssignVariables({100}, "age");
