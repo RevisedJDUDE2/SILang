@@ -1,8 +1,10 @@
 #include <iostream>
 #include <vector>
 #include "SILangMem.hpp"
+#include "SILangTerm.hpp"
 
 int main() {
+  SILangTerm Interpreter();
   SILangMemory Stack;
   Stack.AssignVariables({100}, "age");
   Stack.AssignVariables({200}, "w");
