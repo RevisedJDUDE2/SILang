@@ -8,4 +8,4 @@ SILangTerm::SILangTerm(const char* Title) {
     SetConsoleTitleA("Interpreter: SILang");
   }
   SetConsoleTitleA(Title);
-}
+};
