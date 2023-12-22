@@ -8,10 +8,6 @@ int main() {
   Stack.AssignVariables({200}, "w");
   Stack.AssignVariables({0, 0, 104, 0}, "h");
   VariableInfo* VI = Stack.GetAllVariableInfo();
-  for(int i = 0; i <= 10000; ++i) {
-    std::cout << VI[i].name << ", ";
-    std::cout << VI[i].value.i << "\n";
-  }
   std::cout << "Name: " << VI[Stack.GetLastAssigned()].name << "\n";
   return 0;
 }
