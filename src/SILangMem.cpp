@@ -26,3 +26,7 @@ void SILangMemory::AssignVariables(VariableData VarData, const char* name) {
     std::cout << "Error: The stack is full or unable to assing the variable!\n";
   };
 };
+
+int SILangMemory::GetLastAssigned() const {
+  return this->pLastIndex;
+}

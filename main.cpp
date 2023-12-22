@@ -12,5 +12,6 @@ int main() {
     std::cout << VI[i].name << ", ";
     std::cout << VI[i].value.i << "\n";
   }
+  std::cout << "Name: " << VI[Stack.GetLastAssigned()].name << "\n";
   return 0;
 }

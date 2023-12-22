@@ -30,4 +30,8 @@ class SILangMemory {
      *  @returns VariablesInfo*
     */
     VariableInfo* GetAllVariableInfo(void);
+    /** @brief Gets the last index of the variable assigned!
+     *  @returns the (int) of the last inedex
+    */
+   int GetLastAssigned() const;
 };
