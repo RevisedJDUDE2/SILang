@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Interpreter.dir/main.cpp.obj.d"
   "CMakeFiles/Interpreter.dir/src/SILangMem.cpp.obj"
   "CMakeFiles/Interpreter.dir/src/SILangMem.cpp.obj.d"
+  "CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj"
+  "CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj.d"
   "Interpreter.exe"
   "Interpreter.exe.manifest"
   "Interpreter.pdb"

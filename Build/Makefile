@@ -177,6 +177,30 @@ src/SILangMem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Interpreter.dir/build.make CMakeFiles/Interpreter.dir/src/SILangMem.cpp.s
 .PHONY : src/SILangMem.cpp.s
 
+src/SILangTerm.obj: src/SILangTerm.cpp.obj
+.PHONY : src/SILangTerm.obj
+
+# target to build an object file
+src/SILangTerm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Interpreter.dir/build.make CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj
+.PHONY : src/SILangTerm.cpp.obj
+
+src/SILangTerm.i: src/SILangTerm.cpp.i
+.PHONY : src/SILangTerm.i
+
+# target to preprocess a source file
+src/SILangTerm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Interpreter.dir/build.make CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.i
+.PHONY : src/SILangTerm.cpp.i
+
+src/SILangTerm.s: src/SILangTerm.cpp.s
+.PHONY : src/SILangTerm.s
+
+# target to generate assembly for a file
+src/SILangTerm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Interpreter.dir/build.make CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.s
+.PHONY : src/SILangTerm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/SILangMem.obj"
 	@echo "... src/SILangMem.i"
 	@echo "... src/SILangMem.s"
+	@echo "... src/SILangTerm.obj"
+	@echo "... src/SILangTerm.i"
+	@echo "... src/SILangTerm.s"
 .PHONY : help
 
 

@@ -99,20 +99,37 @@ CMakeFiles/Interpreter.dir/src/SILangMem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Interpreter.dir/src/SILangMem.cpp.s"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Emachines/Projects/SILang/src/SILangMem.cpp -o CMakeFiles/Interpreter.dir/src/SILangMem.cpp.s
 
+CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj: CMakeFiles/Interpreter.dir/flags.make
+CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj: CMakeFiles/Interpreter.dir/includes_CXX.rsp
+CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj: C:/Users/Emachines/Projects/SILang/src/SILangTerm.cpp
+CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj: CMakeFiles/Interpreter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Emachines/Projects/SILang/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj -MF CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj.d -o CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj -c C:/Users/Emachines/Projects/SILang/src/SILangTerm.cpp
+
+CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Emachines/Projects/SILang/src/SILangTerm.cpp > CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.i
+
+CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Emachines/Projects/SILang/src/SILangTerm.cpp -o CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.s
+
 # Object files for target Interpreter
 Interpreter_OBJECTS = \
 "CMakeFiles/Interpreter.dir/main.cpp.obj" \
-"CMakeFiles/Interpreter.dir/src/SILangMem.cpp.obj"
+"CMakeFiles/Interpreter.dir/src/SILangMem.cpp.obj" \
+"CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj"
 
 # External object files for target Interpreter
 Interpreter_EXTERNAL_OBJECTS =
 
 Interpreter.exe: CMakeFiles/Interpreter.dir/main.cpp.obj
 Interpreter.exe: CMakeFiles/Interpreter.dir/src/SILangMem.cpp.obj
+Interpreter.exe: CMakeFiles/Interpreter.dir/src/SILangTerm.cpp.obj
 Interpreter.exe: CMakeFiles/Interpreter.dir/build.make
 Interpreter.exe: CMakeFiles/Interpreter.dir/linkLibs.rsp
 Interpreter.exe: CMakeFiles/Interpreter.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Emachines/Projects/SILang/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Interpreter.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Emachines/Projects/SILang/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Interpreter.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/Interpreter.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/Interpreter.dir/objects.a @CMakeFiles/Interpreter.dir/objects1.rsp
 	C:/msys64/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/Interpreter.dir/objects.a -Wl,--no-whole-archive -o Interpreter.exe -Wl,--out-implib,libInterpreter.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Interpreter.dir/linkLibs.rsp
