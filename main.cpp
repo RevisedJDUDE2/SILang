@@ -16,5 +16,7 @@ int WINAPI WinMain(HINSTANCE hThis, HINSTANCE hPrev, LPSTR args, int NCMD) {
     break;
    } 
   }
-  return 0;
+  if(MessageBoxA(nullptr, "Do you want to close?", "SILang", MB_YESNO) == IDYES) {
+    return 0;
+  }
 }
