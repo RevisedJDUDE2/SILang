@@ -4,7 +4,7 @@
 #include "SILangTerm.hpp"
 
 int WINAPI WinMain(HINSTANCE hThis, HINSTANCE hPrev, LPSTR args, int NCMD) {
-  SILangTerm Interpreter();
+  SILangTerm Interpreter("Interpreter");
   SILangMemory Stack;
   Stack.AssignVariables({100}, "age");
   Stack.AssignVariables({200}, "w");
