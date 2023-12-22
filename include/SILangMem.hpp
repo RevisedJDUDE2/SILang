@@ -7,6 +7,7 @@ typedef struct {
   float f;
   char c;
   double d;
+  const char* s;
 } VariableData;
 
 typedef struct {
